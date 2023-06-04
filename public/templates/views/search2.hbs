@@ -1,0 +1,35 @@
+<head>
+    <link rel="stylesheet" href="/css/search.css">
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header}}
+        <p>Search for a character</p>
+        <form autocomplete="off">
+            {{!--<label for="action">What do you have: </label>--}}
+            {{!--<select name="action" id="action">--}}
+                {{!--<option value="characterID">Character ID</option>--}}
+                {{!--<option value="characterName">Character Name</option>--}}
+                {{!--</select>--}}
+            {{!--<br><br>--}}
+            {{!--<div id="charid" class="autocomplete">--}}
+                {{!--<input placeholder="Character ID" size="32" type="text">--}}
+                {{!--<button>Search</button>--}}
+                {{!--</div>--}}
+            <div id="charname" class="autocomplete">
+                <input placeholder="Character Name" size="32" type="text" id="cnamein">
+                {{!--<button>Search</button>--}}
+            </div>
+            <input type="submit">
+            <br>
+            {{!--<div>--}}
+                {{!--<button>View Full List</button>--}}
+                {{!--</div>--}}
+        </form>
+        <script src="/js/autocomplete.js"></script>
+    </div>
+
+    {{>footer}}
+    <script src="/js/search2.js"></script>
+</body>

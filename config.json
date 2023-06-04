@@ -1,0 +1,16 @@
+{
+    "clientId": "922970377930547250",
+    "guildId": "779914284952059934",
+    "token": "DiscordToken",
+    "modIDs": [
+        "ModeratorDiscordID1",
+        "ModeratorDiscordID2"
+    ],
+    "characterFileFolders": {
+        "originalCharacterSheets": "./charactersheets/",
+        "parsedCharacterSheets": "./charactersheets/parsed/",
+        "originalAvatars": "./avatars/originals/",
+        "thumbnailAvatars": "./avatars/"
+    },
+    "backupLocation": "./backups/"
+}

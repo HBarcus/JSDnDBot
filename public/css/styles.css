@@ -1,0 +1,109 @@
+:root {
+  --maxscreenwidth: 650px;
+}
+
+/*.infotable {*/
+/*border-collapse:collapse;*/
+/*border-spacing:0;*/
+/*	border: none;*/
+/*}*/
+
+/*.infotable {*/
+/*border-color:black;*/
+/*border-style:solid;*/
+/*border-width:1px;*/
+/*	font-family:Arial, sans-serif;*/
+/*	font-size:14px;*/
+/*	overflow:hidden;*/
+/*	padding:10px 5px;*/
+/*	word-break:normal;*/
+/*}*/
+
+/*.infotable {*/
+/*border-color:black;*/
+/*border-style:solid;*/
+/*border-width:1px;*/
+/*	font-family:Arial, sans-serif;*/
+/*	font-size:14px;*/
+/*	font-weight:normal;*/
+/*	overflow:hidden;*/
+/*	padding:10px 5px;*/
+/*	word-break:normal;*/
+/*}*/
+
+/*.infotable .infotablecell {*/
+/*border: 1px solid black;*/
+/*	text-align:left;*/
+/*	vertical-align:top;*/
+/*}*/
+
+body {
+  color: #333333;
+  font-family: arial;
+  max-width: var(--maxscreenwidth);
+  margin: 0 auto;
+  padding: 0 16px;
+  background: #f9f9f9 url(https://www.dndbeyond.com/content/1-0-1854-0/skins/waterdeep/images/background_texture.png) repeat;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+img {
+  max-width: 150px;
+  max-height: 150px;
+  /*position: absolute;*/
+  /*top: calc();*/
+  /*top: 204px;*/
+  /*left: 100px;*/
+  /*right: 10vw;*/
+  /*right: 650px;*/
+}
+
+.main-content {
+  flex-grow: 1;
+}
+
+.charinfolist {
+  font-family: arial;
+  font-size: 16px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th,
+td {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+footer {
+  color: #888888;
+  border-top: 1px solid #eeeeee;
+  margin-top: 16px;
+  padding: 16px 0;
+}
+
+header {
+  font-size: 16px;
+  margin-bottom: 48px;
+}
+
+h1 {
+  font-size: 64px;
+  margin-bottom: 16px;
+}
+
+header a {
+  color: #888888;
+  margin-right: 16px;
+  text-decoration: none;
+}

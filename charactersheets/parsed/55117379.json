@@ -1,0 +1,149 @@
+{
+    "player": "397833657391382529",
+    "charid": "55117379",
+    "turnid": 1,
+    "name": "Fluffington McChunky",
+    "avatarURL": "https://www.dndbeyond.com/avatars/22799/898/1581111423-55117379.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
+    "alignment": "Chaotic Neutral",
+    "race": "Lightfoot Halfling",
+    "classes": {
+        "rogue": {
+            "name": "rogue",
+            "level": 2,
+            "hitdie": "d8",
+            "description": "A scoundrel who uses stealth and trickery to overcome obstacles and enemies \n Hit Die: d8Primary Ability: Dexterity Saves: Dexterity & Intelligence",
+            "casterPactMagic": false,
+            "casterLevelInvMult": 0
+        }
+    },
+    "personality": {
+        "ideals": "Freedom. Chains are meant to be broken, as are those who would forge them. (Chaotic)",
+        "bonds": "I will become the greatest thief that ever lived.",
+        "flaws": "When I see something valuable, I can't think about anything but how to steal it.",
+        "background": {
+            "title": "Criminal / Spy",
+            "description": "You are an experienced criminal with a history of breaking the law. You have spent a lot of time among other criminals and still have contacts within the criminal underworld. You’re far closer than most people to the world of murder, theft, and violence that pervades the underbelly of civilization, and you have survived up to this point by flouting the rules and regulations of society. "
+        }
+    },
+    "skills": {
+        "acrobatics": {
+            "stat": "dexterity",
+            "prof": 1
+        },
+        "animalhandling": {
+            "stat": "wisdom",
+            "prof": 0
+        },
+        "arcana": {
+            "stat": "intelligence",
+            "prof": 0
+        },
+        "athletics": {
+            "stat": "strength",
+            "prof": 0
+        },
+        "deception": {
+            "stat": "charisma",
+            "prof": 1
+        },
+        "history": {
+            "stat": "intelligence",
+            "prof": 0
+        },
+        "insight": {
+            "stat": "wisdom",
+            "prof": 0
+        },
+        "intimidation": {
+            "stat": "charisma",
+            "prof": 0
+        },
+        "investigation": {
+            "stat": "intelligence",
+            "prof": 0
+        },
+        "medicine": {
+            "stat": "wisdom",
+            "prof": 0
+        },
+        "nature": {
+            "stat": "intelligence",
+            "prof": 0
+        },
+        "perception": {
+            "stat": "wisdom",
+            "prof": 1
+        },
+        "performance": {
+            "stat": "charisma",
+            "prof": 0
+        },
+        "persuasion": {
+            "stat": "charisma",
+            "prof": 1
+        },
+        "religion": {
+            "stat": "intelligence",
+            "prof": 0
+        },
+        "sleightofhand": {
+            "stat": "dexterity",
+            "prof": 2
+        },
+        "stealth": {
+            "stat": "dexterity",
+            "prof": 1
+        },
+        "survival": {
+            "stat": "wisdom",
+            "prof": 0
+        }
+    },
+    "abilities": {
+        "strength": {
+            "modscore": -1,
+            "score": 8,
+            "saveProf": 0
+        },
+        "dexterity": {
+            "modscore": 3,
+            "score": 17,
+            "saveProf": 1
+        },
+        "constitution": {
+            "modscore": -1,
+            "score": 8,
+            "saveProf": 0
+        },
+        "intelligence": {
+            "modscore": 2,
+            "score": 15,
+            "saveProf": 1
+        },
+        "wisdom": {
+            "modscore": 0,
+            "score": 10,
+            "saveProf": 0
+        },
+        "charisma": {
+            "modscore": 2,
+            "score": 15,
+            "saveProf": 0
+        }
+    },
+    "level": 2,
+    "powers": {},
+    "hp": {
+        "deathSaveFail": 0,
+        "deathSaveSuccess": 0,
+        "totalHP": 11
+    },
+    "languages": [
+        "Common",
+        "Halfling",
+        "Thieves-cant"
+    ],
+    "ownerUsername": "HippocratesLlama",
+    "ownerDiscriminator": "2727",
+    "ownerFull": "HippocratesLlama#2727"
+}

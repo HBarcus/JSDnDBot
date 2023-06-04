@@ -1,0 +1,49 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "startweb": "node webapp.js -e js/hbs",
+    "devweb": "nodemon --legacy-watch webapp.js -e js/hbs",
+    "startbot": "node index.js",
+    "devbot": "nodemon index.js -e js/hbs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HippocratesLlama/JSDnDBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HippocratesLlama/JSDnDBot/issues"
+  },
+  "homepage": "https://github.com/HippocratesLlama/JSDnDBot#readme",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.47.0",
+    "@aws-sdk/client-s3": "^3.47.0",
+    "@discordjs/rest": "^0.2.0-canary.0",
+    "axios": "^0.24.0",
+    "bcryptjs": "^2.4.3",
+    "cheerio": "^1.0.0-rc.10",
+    "discord.js": "^13.5.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.16.4",
+    "hbs": "^4.0.1",
+    "image-downloader": "^4.0.3",
+    "image-thumbnail": "^1.0.14",
+    "jquery": "^3.6.0",
+    "jsdom": "^19.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.3.0",
+    "mongoose": "^6.1.7",
+    "mysql": "^2.18.1",
+    "node-fetch": "^3.1.0",
+    "postman-request": "^2.88.1-postman.30",
+    "pretty": "^2.0.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "sharp": "^0.29.3",
+    "validator": "^13.7.0"
+  }
+}
